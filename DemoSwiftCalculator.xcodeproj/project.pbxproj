@@ -77,11 +77,8 @@
 		F96A82F51AB6EB0C005C4256 /* DemoSwiftCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				F96A82F81AB6EB0C005C4256 /* AppDelegate.swift */,
 				F96A82FA1AB6EB0C005C4256 /* ViewController.swift */,
 				F96A82FC1AB6EB0C005C4256 /* Main.storyboard */,
-				F96A82FF1AB6EB0C005C4256 /* Images.xcassets */,
-				F96A83011AB6EB0C005C4256 /* LaunchScreen.xib */,
 				F96A82F61AB6EB0C005C4256 /* Supporting Files */,
 			);
 			path = DemoSwiftCalculator;
@@ -90,6 +87,9 @@
 		F96A82F61AB6EB0C005C4256 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F96A83011AB6EB0C005C4256 /* LaunchScreen.xib */,
+				F96A82FF1AB6EB0C005C4256 /* Images.xcassets */,
+				F96A82F81AB6EB0C005C4256 /* AppDelegate.swift */,
 				F96A82F71AB6EB0C005C4256 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -339,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DemoSwiftCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -349,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DemoSwiftCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
